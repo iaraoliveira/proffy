@@ -11,7 +11,7 @@
 ## :bulb: Sobre o projeto
 Proffy é uma plataforma de estudos online que tem objetivo conectar alunos e professores.
 
-Essa aplicação foi desenvolvida na 2ª edição da <strong>Next Level Week</strong> (trilha Omnistack), distribuída pela Rocketseat.
+Essa aplicação foi desenvolvida durante a 2ª edição da <strong>Next Level Week</strong> (trilha Omnistack), distribuída pela Rocketseat.
 
 ## :rocket: Tecnologias
 <br>
@@ -70,4 +70,4 @@ $ npm start
 
 <br/>
 
-<div align='center'><strong>Feito com :white_heart: por iara</strong></div>
+<div align='center'><strong>Feito com :white_heart:</strong></div>
