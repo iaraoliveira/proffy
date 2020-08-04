@@ -1,16 +1,22 @@
 <div align="center">
-<img src="./.github/logo.png" alt="Proffy" width="250px"/>
+ <img src="./.github/logo.png" alt="Proffy" />
 </div>
+
+<!-- <span>click here to read in English</span> -->
+
+ <br/>
+ <p><strong>ATENÇÃO:</strong> A implementação deste projeto está em andamento.</p>
+ <br/>
 
 ## :bulb: Sobre o projeto
 Proffy é uma plataforma de estudos online que tem objetivo conectar alunos e professores.
 
-Essa aplicação foi desenvolvida na trilha <strong>Omnistack</strong> da <strong>Next Level Week #2</strong> distribuída pela Rocketseat.
+Essa aplicação foi desenvolvida na 2ª edição da <strong>Next Level Week</strong> (trilha Omnistack), distribuída pela Rocketseat.
 
 ## :rocket: Tecnologias
 <br>
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+O projeto foi construído utilizando as seguintes tecnologias:
 
 
 -  [TypeScript](https://www.typescriptlang.org/)
@@ -62,8 +68,6 @@ $ npm start
 
 ```
 
-## Licenças
+<br/>
 
-<p> Esse projeto está sob o MIT. Veja mais no arquivo <a href='./LICENSE'>LICENSE</a></p>
-
-<div align='center'><strong>With :white_heart: by iara</strong></div>
+<div align='center'><strong>Feito com :white_heart: por iara</strong></div>
