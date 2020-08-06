@@ -23,7 +23,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 -  [ReactJS](https://reactjs.org/)
 
-<!-- -  [Node.js](https://nodejs.org/en/) -->
+-  [Node.js](https://nodejs.org/en/)
 
 <!-- -  [React Native](https://reactnative.dev/) -->
 
@@ -61,13 +61,31 @@ EXECUTE A APLICAÇÃO
 
 ```sh
 
-# inicie a aplicação web
-$ cd web
+#vá para a pasta server
+$ cd server
 
-$ npm start
+# prepare seu banco de dados
+$ yarn knex:migrate
+
+# inicie o backend
+$ yarn start
 
 ```
 
-<br/>
+```sh
 
-<div align='center'><strong>Feito com :white_heart:</strong></div>
+# vá para a pasta web
+$ cd web
+
+# inicie a aplicação web
+$ yarn start
+
+```
+
+
+
+## :notebook_with_decorative_cover: Licença
+
+Este projeto está sob licença MIT, para saber mais, acesse o arquivo [.LICENSE](./.LICENSE)
+
+<div align='center'><strong>Feito com :white_heart: por iara</strong></div>
