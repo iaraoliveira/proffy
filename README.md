@@ -86,6 +86,6 @@ $ yarn start
 
 ## :notebook_with_decorative_cover: Licença
 
-Este projeto está sob licença MIT, para saber mais, acesse o arquivo [.LICENSE](./.LICENSE)
+Este projeto está sob licença MIT, para saber mais, acesse o arquivo [LICENSE](./LICENSE)
 
 <div align='center'><strong>Feito com :white_heart: por iara</strong></div>
