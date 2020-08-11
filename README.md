@@ -1,23 +1,44 @@
+<div align="right" >
+  <a href="./README.pt.md">
+    <img src="./.github/lg-button-pt.png" alt="pt-br" width="180px" ></img>
+  </a>
+</div>
+<br/>
+
 <div align="center">
  <img src="./.github/logo.png" alt="Proffy" />
 </div>
 
-<!-- <span>click here to read in English</span> -->
 
- <br/>
- <p><strong>ATENÇÃO:</strong> A implementação deste projeto está em andamento.</p>
- <br/>
+<br/>
+<p align="center">
+ <a href="#about">About</a>  • 
+ <a href="#technologies">Technologies</a>  •  
+ <a href="#how-to-run">How to run</a>  •  
+ <a href="#license">License</a>  •  
+ <a href="#author">Author</a>
+</p>
 
-## :bulb: Sobre o projeto
-Proffy é uma plataforma de estudos online que tem objetivo conectar alunos e professores.
 
-Essa aplicação foi desenvolvida durante a 2ª edição da <strong>Next Level Week</strong> (trilha Omnistack), distribuída pela [Rocketseat](https://rocketseat.com.br/).
+<br/>
+<p><strong>ATTENTION:</strong> This project is under contruction</p>
+<br/>
 
-## :rocket: Tecnologias
-<br>
+<a name="about"/>
 
-O projeto foi construído utilizando as seguintes tecnologias:
+## :bulb: About the project
 
+Proffys an online platform that connects teachers and students.
+
+This application was developed during the second edition of <strong>Next Level Week</strong> distributed by [Rocketseat](https://rocketseat.com.br/).
+
+
+<br/>
+<a name="technologies"/>
+
+## :rocket: Technologies
+
+This project is made with:
 
 -  [TypeScript](https://www.typescriptlang.org/)
 
@@ -27,17 +48,20 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 <!-- -  [React Native](https://reactnative.dev/) -->
 
-<br>
 
-## :computer: Como executar o projeto
-<br>
+<br/>
+<a name="how-to-run"/>
 
-ANTES DE MAIS NADA
+## :computer: How to run
 
-- Você precisa ter o `node.js` instalado na sua máquina;
-- Também, é necessário ter um gerenciador de pacotes seja o `npm` ou `yarn`;
 
-CLONE ESSE REPOSITÓRIO
+FIRST OF ALL
+
+. You will need to have `node.js` installed in you machine; <br/>
+. Also, it's very important to have a package manager, you can use `yarn` or `npm`; <br/>
+
+
+CLONE THIS REPOSITORY
 
 ```sh
 
@@ -45,47 +69,57 @@ $ git clone https://github.com/iaraoliveira/proffy.git
 
 ```
 
- INSTALE AS DEPENDÊNCIAS
+INSTALLING THE DEPENDENCIES
 
 ```sh
 
-# caso você utilize o npm
-$ npm install
-
-# caso você utilize o yarn
+# run this if you're using yarn
 $ yarn
 
+# or this if you're using npm
+$ npm install
+
 ```
 
-EXECUTE A APLICAÇÃO
+RUN THE APPLICATION
 
 ```sh
 
-#vá para a pasta server
+# go to server directory
 $ cd server
 
-# prepare seu banco de dados
+# initialize your database
 $ yarn knex:migrate
 
-# inicie o backend
+# run server
 $ yarn start
 
 ```
 
 ```sh
 
-# vá para a pasta web
+# go to web directory
 $ cd web
 
-# inicie a aplicação web
+# run web frontend
 $ yarn start
 
 ```
 
+<br/>
+<a name="license"/>
+
+## :notebook_with_decorative_cover: License
+
+This project is under the MIT license, you can read more about it in [LICENSE](../LICENSE)
 
 
-## :notebook_with_decorative_cover: Licença
+<br/>
+<a name="author"/>
 
-Este projeto está sob licença MIT, para saber mais, acesse o arquivo [LICENSE](./LICENSE)
+<div align='center'>
+  <strong>With :white_heart: by iara</strong>
+  <br/>
+  <a href="https://www.linkedin.com/in/iara/">Let's talk</a>
+</div>
 
-<div align='center'><strong>Feito com :white_heart: por iara</strong></div>
