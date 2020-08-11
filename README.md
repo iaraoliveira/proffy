@@ -28,7 +28,7 @@
 
 ## :bulb: About the project
 
-Proffys an online platform that connects teachers and students.
+Proffy is an online platform that connects teachers and students.
 
 This application was developed during the second edition of <strong>Next Level Week</strong> distributed by [Rocketseat](https://rocketseat.com.br/).
 
