@@ -5,6 +5,8 @@ import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
 
 import warningIcon from '../../assets/images/icons/warning.svg'
+import Textarea from '../../components/Textarea';
+import Select from '../../components/Select';
 
 function TeacherForm() {
     return (
@@ -20,11 +22,18 @@ function TeacherForm() {
                     <Input name="name" label="Nome completo" ></Input>
                     <Input name="avatar" label="Avatar" ></Input>
                     <Input name="whatsapp" label="Whatsapp" ></Input>
+                    <Textarea name="bio" label="Biografia" ></Textarea>
                 </fieldset>
 
                 <fieldset>
                     <legend>Sobre a aula</legend>
-                    <Input name="subject" label="Matéria" ></Input>
+                    <Select 
+                        name="subject" 
+                        label="Matéria" 
+                        options = {[
+                            { value: 'Artes', label: 'Artes'}
+                        ]}
+                    ></Select>
                     <Input name="cost" label="Custo da sua aula por hora" ></Input>
                 </fieldset>
 
