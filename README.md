@@ -111,7 +111,7 @@ $ yarn start
 
 ## :notebook_with_decorative_cover: License
 
-This project is under the MIT license, you can read more about it in [LICENSE](../LICENSE)
+This project is under the MIT license, you can read more about it in [LICENSE](./LICENSE)
 
 
 <br/>
