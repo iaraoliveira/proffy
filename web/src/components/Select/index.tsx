@@ -1,5 +1,5 @@
 import React, { SelectHTMLAttributes } from 'react';
-import SelectOptions from 'react-select';
+// import SelectOptions from 'react-select';
 
 import './styles.css';
 
@@ -15,19 +15,21 @@ interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
 const Select: React.FC<SelectProps> = ( { label, name, options, ...rest } ) => {
 
     return (
-        <div className="select-block">
-            <label htmlFor={name} >{label}</label>
-            <SelectOptions id={name} options={options} />
-        </div>
-
         // <div className="select-block">
         //     <label htmlFor={name} >{label}</label>
-        //     <select id={name} >
-        //         { options.map(option => (
-        //             <option key={option.value} value={option.value}>{option.label}</option>
-        //         ))}
-        //     </select>
+        //     <SelectOptions id={name} options={options} />
         // </div>
+
+        <div className="select-block">
+            <label htmlFor={name} >{label}</label>
+            <select defaultValue="" id={name} >
+                <option value="" disabled hidden>Selecione uma opção</option>
+
+                { options.map(option => (
+                    <option key={option.value} value={option.value}>{option.label}</option>
+                ))}
+            </select>
+        </div>
     );
 }
 
