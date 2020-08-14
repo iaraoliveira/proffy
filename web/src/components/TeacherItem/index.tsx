@@ -4,32 +4,43 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 import './styles.css';
 
-function TeacherItem () {
+export interface Teacher {
+    avatar: string;
+    bio: string;
+    cost: Number;
+    id: number;
+    name: string;
+    subject: string;
+    whatsapp: string;
+}
+interface TeacherItemProps {
+    teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ( { teacher } ) => {
     return (
         <article className="teacher-item">
             <header>
-                <img src="https://avatars0.githubusercontent.com/u/30235250?s=460&u=6309c5d455aecbe07da1b068074c3ab9b97bf4ff&v=4" alt="Iara Oliveira"/>
+                <img src={teacher.avatar} alt="Iara Oliveira"/>
                 <div>
-                    <strong>Iara Oliveira</strong>
-                    <span>Artes</span>
+                    <strong>{teacher.name}</strong>
+                    <span>{teacher.subject}</span>
                 </div>
             </header>
 
             <p>
-                Expressividade artística não intencional. Arteira de nascença.
-                <br/><br/>
-                Apaixonada por ver coisas saindo do papel e tranformar em visível aquilo que antes não existia.
+                {teacher.bio}
             </p>
 
             <footer>
                 <p>
                     Preço/hora
-                    <strong>R$ 70,00</strong>
+                    <strong>{teacher.cost}</strong>
                 </p>
-                <button type="button">
+                <a href={`https://wa.me/${teacher.whatsapp}`}>
                     <img src={whatsappIcon} alt="Whatsapp"/>
                     Entrar em contato
-                </button>
+                </a>
             </footer>
         </article>
     );
