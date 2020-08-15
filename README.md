@@ -27,10 +27,14 @@
 
 <div align="center">
   <img src="./.github/capa.png" alt="Project cover" width="800" >
-  <span>Project avaiable on <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web?node-id=0%3A1">Figma</a></span>
+  <p>Project avaiable on <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web?node-id=0%3A1">Figma</a></p>
 	<img  src=".github/teacherList.png"  alt="Teacher list page example" width="800" >
-  <span>Teachers list on web application</span>
+  <p>Teachers list on web application</p>
 </div>
+
+<br/>
+
+
 
 Proffy is an online platform that connects teachers and students.
 
