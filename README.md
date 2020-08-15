@@ -1,6 +1,6 @@
 <div align="right" >
   <a href="./README.pt.md">
-    <img src="./.github/lg-button-pt.png" alt="pt-br" width="180px" ></img>
+    <img src="./.github/lg-button-pt.png" alt="Leia isso em português" width="180px" ></img>
   </a>
 </div>
 <br/>
@@ -8,7 +8,6 @@
 <div align="center">
  <img src="./.github/logo.png" alt="Proffy" />
 </div>
-
 
 <br/>
 <p align="center">
@@ -20,13 +19,18 @@
 </p>
 
 
-<br/>
-<p><strong>ATTENTION:</strong> This project is under contruction</p>
-<br/>
-
 <a name="about"/>
 
 ## :bulb: About the project
+
+<br/>
+
+<div align="center">
+  <img src="./.github/capa.png" alt="Project cover" width="800" >
+  <span>Project avaiable on <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web?node-id=0%3A1">Figma</a></span>
+	<img  src=".github/teacherList.png"  alt="Teacher list page example" width="800" >
+  <span>Teachers list on web application</span>
+</div>
 
 Proffy is an online platform that connects teachers and students.
 
@@ -40,13 +44,11 @@ This application was developed during the second edition of <strong>Next Level W
 
 This project is made with:
 
--  [TypeScript](https://www.typescriptlang.org/)
+. [TypeScript](https://www.typescriptlang.org/)<br/>
 
--  [ReactJS](https://reactjs.org/)
+. [ReactJS](https://reactjs.org/)<br/>
 
--  [Node.js](https://nodejs.org/en/)
-
-<!-- -  [React Native](https://reactnative.dev/) -->
+. [Node.js](https://nodejs.org/en/)<br/>
 
 
 <br/>
